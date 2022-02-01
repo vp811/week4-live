@@ -1,0 +1,70 @@
+/*================================
+
+Universal Styling 
+
+=================================*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background: url('../images/background.jpg') fixed;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+main.container {
+    background: white;
+    padding: 30px 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+
+p {
+    line-height: 140%;
+    margin: 20px 0;
+}
+
+/*================================
+
+Header Styling 
+
+=================================*/
+header {
+    background: #333;
+    padding: 30px 0;
+}
+
+nav {
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    background: gray;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+/*================================
+
+About Styling 
+
+=================================*/
